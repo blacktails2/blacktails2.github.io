@@ -63,7 +63,7 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: #333333;
-$body-font-family: 'DIN Next W01 Medium', 'ゴシックMB101 M', 'Gothic MB101 Medium', 'Helvetica Neue', Helvetica, sans-serif;
+$body-font-family: 'ゴシックMB101 M', 'Gothic MB101 Medium', 'Helvetica Neue', Helvetica, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -104,7 +104,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+$header-font-family: 'DIN Next W01 Bold';
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
