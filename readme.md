@@ -1,3 +1,7 @@
+＃ShiftA
+ポートフォリオサイト(7個目)です。
+今回はFoundationをメインに使って作成しています。
+
 # ZURB Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
