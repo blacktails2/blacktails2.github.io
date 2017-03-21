@@ -10,14 +10,21 @@
     <link rel="stylesheet" href="assets/css/app.css">
     <script type="text/javascript" src="//fast.fonts.net/jsapi/ed874316-ce82-4c2f-aedc-a5c7969ae578.js"></script>
     <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?ggfsXn9cZZA%3D" charset="utf-8"></script>
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+  <script src="assets/js/background-blur.min.js"></script>
   </head>
   <body>
 
     <div data-sticky-container>
     <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+    <ul class="menu">
       <div class="top-bar-title">
-        <a href="blacktails2.github.io"><img src="assets/img/logo.svg"></a>
+      <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+          <button class="menu-icon dark" type="button" data-toggle></button>
+        </span>
+        <a href="blacktails2.github.io"><img src="assets/img/logo.svg" id="logomark"><span id="sublogo">Masaki Ando</span></a>
       </div>
+    </ul>
       <div>
         <div class="top-bar-right">
           <ul class="dropdown menu" data-dropdown-menu>
