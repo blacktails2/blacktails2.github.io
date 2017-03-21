@@ -53,11 +53,11 @@ $shcolor: #1C8B9C;
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ldmqvt');
-  src:  url('fonts/icomoon.eot?ldmqvt#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ldmqvt') format('truetype'),
-    url('fonts/icomoon.woff?ldmqvt') format('woff'),
-    url('fonts/icomoon.svg?ldmqvt#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?r1dauj');
+  src:  url('fonts/icomoon.eot?r1dauj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?r1dauj') format('truetype'),
+    url('fonts/icomoon.woff?r1dauj') format('woff'),
+    url('fonts/icomoon.svg?r1dauj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -77,13 +77,66 @@ $shcolor: #1C8B9C;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-simbol:before {
+.icon-shifta-logo .path1:before {
   content: "\e900";
+  color: rgb(35, 24, 21);
 }
+.icon-shifta-logo .path2:before {
+  content: "\e901";
+  margin-left: -3.9521484375em;
+  color: rgb(35, 24, 21);
+}
+.icon-shifta-logo .path3:before {
+  content: "\e902";
+  margin-left: -3.9521484375em;
+  color: rgb(35, 24, 21);
+}
+.icon-shifta-logo .path4:before {
+  content: "\e903";
+  margin-left: -3.9521484375em;
+  color: rgb(35, 24, 21);
+}
+.icon-shifta-logo .path5:before {
+  content: "\e904";
+  margin-left: -3.9521484375em;
+  color: rgb(35, 24, 21);
+}
+.icon-shifta-logo .path6:before {
+  content: "\e905";
+  margin-left: -3.9521484375em;
+  color: rgb(28, 139, 156);
+}
+.icon-shifta-logo .path7:before {
+  content: "\e906";
+  margin-left: -3.9521484375em;
+  color: rgb(35, 24, 21);
+}
+.icon-shifta-logo .path8:before {
+  content: "\e907";
+  margin-left: -3.9521484375em;
+  color: rgb(35, 24, 21);
+}
+.icon-shifta-logo .path9:before {
+  content: "\e908";
+  margin-left: -3.9521484375em;
+  color: rgb(255, 255, 255);
+}
+.icon-shifta-logo .path10:before {
+  content: "\e909";
+  margin-left: -3.9521484375em;
+  color: rgb(28, 139, 156);
+}
+.icon-shifta-logo .path11:before {
+  content: "\e90a";
+  margin-left: -3.9521484375em;
+  color: rgb(28, 139, 156);
+}
+
+
 .topmenu{
 	color: #333333;
 	font-family: "DIN Next W01 Bold", sans-serif;
-	transition: all 0.2s ease;
+	transition: all 0.3s ease;
   	display: inline-block;
   	font-size: 1.2em;
 	&::after {
@@ -103,7 +156,7 @@ $shcolor: #1C8B9C;
 .topdrop{
 	color: #333333;
 	font-family: "DIN Next W01 Medium", sans-serif;
-	transition: all 0.2s ease;
+	transition: all 0.3s ease;
   	display: inline-block;
   	font-size: 1em;
 	&:hover{
