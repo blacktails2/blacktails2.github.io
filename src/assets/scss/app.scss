@@ -1,3 +1,4 @@
+$shcolor: #1C8B9C;
 @charset 'utf-8';
 
 @import 'settings';
@@ -79,4 +80,33 @@
 .icon-simbol:before {
   content: "\e900";
 }
-
+.topmenu{
+	color: #333333;
+	font-family: "DIN Next W01 Bold", sans-serif;
+	transition: all 0.2s ease;
+  	display: inline-block;
+  	font-size: 1.2em;
+	&::after {
+  	content: "";
+  	display: block;
+  	width: 0;
+  	transition: width 0.3s;
+  	border-bottom: 4px solid $shcolor;
+	}
+	&:hover{
+		color: $shcolor;
+		&::after{
+			width: 100%;
+		}
+	}
+}
+.topdrop{
+	color: #333333;
+	font-family: "DIN Next W01 Medium", sans-serif;
+	transition: all 0.2s ease;
+  	display: inline-block;
+  	font-size: 1em;
+	&:hover{
+		color: $shcolor;
+	}
+}
