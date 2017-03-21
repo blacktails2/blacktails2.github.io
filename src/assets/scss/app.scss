@@ -49,3 +49,12 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+#logomark{
+	float: left;
+}
+#sublogo{
+	float: left;
+	color: #333;
+	font-family: 'DIN Next W01 Medium';
+	font-size: 30px;
+}

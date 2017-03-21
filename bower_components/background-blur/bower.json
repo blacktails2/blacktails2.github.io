@@ -1,0 +1,27 @@
+{
+  "name": "background-blur",
+  "version": "0.1.0",
+  "authors": [
+    "Maks Surguy <msurguy@gmail.com>"
+  ],
+  "description": "Image blur plugin",
+  "main": "dist/background-blur.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "velocity",
+    "blur",
+    "animation",
+    "jquery",
+    "plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
