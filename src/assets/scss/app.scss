@@ -53,11 +53,11 @@ $shcolor: #1C8B9C;
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?r1dauj');
-  src:  url('../fonts/icomoon.eot?r1dauj#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?r1dauj') format('truetype'),
-    url('../fonts/icomoon.woff?r1dauj') format('woff'),
-    url('../fonts/icomoon.svg?r1dauj#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?6dsn79');
+  src:  url('../fonts/icomoon.eot?6dsn79#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?6dsn79') format('truetype'),
+    url('../fonts/icomoon.woff?6dsn79') format('woff'),
+    url('../fonts/icomoon.svg?6dsn79#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -77,61 +77,49 @@ $shcolor: #1C8B9C;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-shifta-logo .path1:before {
+.icon-logo .path1:before {
   content: "\e900";
   color: rgb(35, 24, 21);
 }
-.icon-shifta-logo .path2:before {
+.icon-logo .path2:before {
   content: "\e901";
   margin-left: -3.9521484375em;
   color: rgb(35, 24, 21);
 }
-.icon-shifta-logo .path3:before {
+.icon-logo .path3:before {
   content: "\e902";
   margin-left: -3.9521484375em;
   color: rgb(35, 24, 21);
 }
-.icon-shifta-logo .path4:before {
+.icon-logo .path4:before {
   content: "\e903";
   margin-left: -3.9521484375em;
-  color: rgb(35, 24, 21);
+  color: rgb(28, 139, 156);
 }
-.icon-shifta-logo .path5:before {
+.icon-logo .path5:before {
   content: "\e904";
   margin-left: -3.9521484375em;
   color: rgb(35, 24, 21);
 }
-.icon-shifta-logo .path6:before {
+.icon-logo .path6:before {
   content: "\e905";
   margin-left: -3.9521484375em;
-  color: rgb(28, 139, 156);
+  color: rgb(35, 24, 21);
 }
-.icon-shifta-logo .path7:before {
+.icon-logo .path7:before {
   content: "\e906";
   margin-left: -3.9521484375em;
-  color: rgb(35, 24, 21);
-}
-.icon-shifta-logo .path8:before {
-  content: "\e907";
-  margin-left: -3.9521484375em;
-  color: rgb(35, 24, 21);
-}
-.icon-shifta-logo .path9:before {
-  content: "\e908";
-  margin-left: -3.9521484375em;
-  color: rgb(255, 255, 255);
-}
-.icon-shifta-logo .path10:before {
-  content: "\e909";
-  margin-left: -3.9521484375em;
   color: rgb(28, 139, 156);
 }
-.icon-shifta-logo .path11:before {
-  content: "\e90a";
+.icon-logo .path8:before {
+  content: "\e907";
   margin-left: -3.9521484375em;
   color: rgb(28, 139, 156);
 }
 
+#toplogo{
+	font-size: 2em; 
+}
 
 .topmenu{
 	color: #333333;
@@ -162,4 +150,10 @@ $shcolor: #1C8B9C;
 	&:hover{
 		color: $shcolor;
 	}
+}
+.top-bar-right{
+  transform: translateY(7px);
+}
+.top-bar ul{
+  background-color: rgba(0,0,0,0);
 }
