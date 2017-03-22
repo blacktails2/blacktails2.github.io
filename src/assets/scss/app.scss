@@ -190,9 +190,40 @@ $shcolor: #1C8B9C;
   background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
   width: 100%;
 }
+#bgr2{
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
 #Homemenu{
   transform: translateY(2px);
 }
 .is-dropdown-submenu{
   border-radius: 5px;
+}
+.accordion-title{
+  font-family: "DIN Next W01 Bold";
+  font-size: 2rem;
+  text-align: center;
+  &::after {
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 0;
+    transition: width 0.3s;
+    border-bottom: 4px solid white;
+  }
+  &:hover{
+    color: white;
+    &::after{
+      width: 300px;
+    }
+  }
+  &:focus{
+    color: white;
+  }
+}
+.accordion-content{
+  text-align: center;
+}
+.accordion-title::before{
+  display: none;
 }
