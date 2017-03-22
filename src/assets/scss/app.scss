@@ -157,3 +157,15 @@ $shcolor: #1C8B9C;
 .top-bar ul{
   background-color: rgba(0,0,0,0);
 }
+.orbit-next, .orbit-previous{
+  transition: all 0.5s ease;
+  border-radius: 50%;
+}
+.orbit-container{
+  border-radius: 5px;
+}
+#bgr1{
+  padding-top: 2%;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  width: 100%;
+}

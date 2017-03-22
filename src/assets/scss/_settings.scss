@@ -447,15 +447,15 @@ $maincontent-class: 'off-canvas-content';
 // 25. Orbit
 // ---------
 
-$orbit-bullet-background: $medium-gray;
-$orbit-bullet-background-active: $dark-gray;
-$orbit-bullet-diameter: 1.2rem;
+$orbit-bullet-background: rgba(255,255,255,0.5);
+$orbit-bullet-background-active: rgba(255,255,255,0.8);
+$orbit-bullet-diameter: 0.5rem;
 $orbit-bullet-margin: 0.1rem;
 $orbit-bullet-margin-top: 0.8rem;
 $orbit-bullet-margin-bottom: 0.8rem;
-$orbit-caption-background: rgba($black, 0.5);
+$orbit-caption-background: rgba($black, 0.3);
 $orbit-caption-padding: 1rem;
-$orbit-control-background-hover: rgba($black, 0.5);
+$orbit-control-background-hover: rgba($black, 0.2);
 $orbit-control-padding: 1rem;
 $orbit-control-zindex: 10;
 
