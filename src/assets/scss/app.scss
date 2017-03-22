@@ -163,7 +163,7 @@ $shcolor: #1C8B9C;
   border-radius: 5px;
 	&:hover{
 		color: $shcolor;
-    background-color: rgba(230,230,230,0.9);
+    background-color: rgba(22,147,165,0.1);
 	}
 }
 .top-bar-right{
@@ -191,7 +191,19 @@ $shcolor: #1C8B9C;
   width: 100%;
 }
 #bgr2{
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(to right, rgba(255,0,77,0.7), rgba(255,217,0,0.7)), url(../img/bgr2.png);
+  background-size: cover;
+  background-position: center;
+}
+#bgr3{
+  background: linear-gradient(to top, rgba(0,255,255,0.7), rgba(115,0,255,0.7)),url(../img/bgr3.JPG);
+  background-size: cover;
+  background-position: center;
+}
+#bgr4{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
 }
 #Homemenu{
   transform: translateY(2px);
