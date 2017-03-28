@@ -61,6 +61,8 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+$shcolor: #1C8B9C;
+$dgray: #333333; 
 $body-background: $white;
 $body-font-color: #333333;
 $body-font-family: '新ゴ L', 'Shin Go Light', 'Helvetica Neue', Helvetica, sans-serif;
@@ -199,13 +201,13 @@ $input-error-font-weight: $global-weight-bold;
 $accordion-background: rgba(0,0,0,0);
 $accordion-plusminus: true;
 $accordion-title-font-size: rem-calc(12);
-$accordion-item-color: $white;
-$accordion-item-background-hover: rgba(0,0,0,0);
+$accordion-item-color: #333333;
+$accordion-item-background-hover: $white;
 $accordion-item-padding: 1.25rem 1rem;
-$accordion-content-background: rgba(0,0,0,0);
-$accordion-content-border: none;
-$accordion-content-color: $white;
-$accordion-content-padding: 0 1rem 1rem 1rem;
+$accordion-content-background: $white;
+$accordion-content-border: $shcolor solid 1px;
+$accordion-content-color: $dgray;
+$accordion-content-padding: 1rem;
 
 // 8. Accordion Menu
 // -----------------
