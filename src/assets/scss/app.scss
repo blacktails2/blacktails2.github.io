@@ -134,7 +134,9 @@ $dgray: #333333;
     }
   }
 }
-
+html,body{
+  height: 100%;
+}
 .topmenu{
 	color: #333333;
 	font-family: "DIN Next W01 Bold", sans-serif;
@@ -264,4 +266,17 @@ $dgray: #333333;
   60% { background-color: #FBB829; }
   80% { background-color: #77CCA4; }
   100% { background-color: $shcolor; }
+}
+#bgr1{
+  background: linear-gradient(-10deg, rgba(0,255,183,0.6), rgba(0,162,255,0.6)), url(../img/bgr2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+#titletext{
+  color: white;
+  text-align: center;
 }
