@@ -210,7 +210,7 @@ html,body{
   &:hover{
     color: $shcolor;
     &::after{
-      width: 300px;
+      width: 15rem;
     }
   }
   &:focus{
@@ -279,7 +279,7 @@ html,body{
   color: white;
   text-align: center;
 }
-.accordion-item, .is-active{
+.shadowin{
   border-radius: 5px;
   margin: 4rem auto;
   box-shadow:0px 4px 10px 1px #ddd;
@@ -297,7 +297,25 @@ html,body{
   justify-content: center;
 }
 .midashi{
-  border: 3px solid;
-  display: inline-block;
-  padding: 4px 10px 0px;
+  text-align: center;
+  h5{
+    border: 3px solid;
+    display: inline-block;
+    padding: 4px 10px 0px;
+    }
+}
+.sub{
+  margin-bottom: 0;
+  text-align: center;
+  color: $shcolor;
+}
+.subsub{
+  text-align: center;
+  color: $shcolor;
+}
+.shcontents{
+  padding: 3rem 10%;
+}
+.list{
+  font-family: "DIN Next W01 Bold";
 }
