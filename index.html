@@ -8,8 +8,11 @@
     <title>ShiftA Pages: Masaki Ando Portfolio Site</title>
     <link rel="shortcut icon" href="assets/img/favicon2.png"/>
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
     <script type="text/javascript" src="//fast.fonts.net/jsapi/ed874316-ce82-4c2f-aedc-a5c7969ae578.js"></script>
     <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?ggfsXn9cZZA%3D" charset="utf-8"></script>
+    <script type="text/javascript" src="assets/js/swiper.min.js"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,40 +27,40 @@
   <body>
 
     <div data-sticky-container>
-    <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
-      <div class="top-bar-title">
-        <a href="blacktails2.github.io"><span class="icon-logo" id="toplogo"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span></a>
+      <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+        <div class="top-bar-title">
+          <a href="blacktails2.github.io"><span class="icon-logo" id="toplogo"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span></a>
+        </div>
+        <div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li><a href="#" class="topmenu" id="Homemenu">Home</a></li>
+              <li>
+                <a href="#" class="topmenu">Workshift</a>
+                <ul class="menu vertical">
+                  <li><a href="#" class="topdrop">Leatest:2017 Spring</a></li>
+                  <li><a href="#" class="topdrop">All Workshifts</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="topmenu">Portfolio</a>
+                <ul class="menu vertical">
+                  <li><a href="#" class="topdrop">Leatest:Issue 01</a></li>
+                  <li><a href="#" class="topdrop">All Portfolios</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          </div>
       </div>
-      <div>
-        <div class="top-bar-right">
-          <ul class="dropdown menu" data-dropdown-menu>
-            <li><a href="#" class="topmenu" id="Homemenu">Home</a></li>
-            <li>
-              <a href="#" class="topmenu">Workshift</a>
-              <ul class="menu vertical">
-                <li><a href="#" class="topdrop">Leatest:2017 Spring</a></li>
-                <li><a href="#" class="topdrop">All Workshifts</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#" class="topmenu">Portfolio</a>
-              <ul class="menu vertical">
-                <li><a href="#" class="topdrop">Leatest:Issue 01</a></li>
-                <li><a href="#" class="topdrop">All Portfolios</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        </div>
-    </div>
     </div>
     
-    <div id="bgr1">
+    <div id="bgr1" class="animated fadeIn">
       <div class="row">
         <div class="large-12 columns">
           <h5 id="titletext">
             ShiftA Magazine issue02: Masaki Color Style 2017<br>
-            is being designed now. Please wait until July.<br>
+            has been now designed. Please wait until July.<br>
           </h5>
         </div>
       </div>
@@ -69,13 +72,8 @@
             <a href="#" class="accordion-title">What’s ShiftA?</a>
             <div class="accordion-content" data-tab-content>
             <div class="midashi"><h5>ShiftA = Shift + Advance</h5></div>
-              ShiftA “シフタ”は、“Shift”=変わる、変える と、“A”=Advance,前進する でできた造語で、
-              AにはAdvanceの他にも様々な意味が入ります。  
-              そして、ShiftAは自分の作品公開を目的としたブランドです。
-              現在は、本サイトのShiftA Pagesと、
-              雑誌を模したポートフォリオShiftA Magazineで展開しています。
-              ShiftA Pagesでは、Workshiftによる作品紹介、
-              PortfolioではShiftA Magazineを閲覧できます。
+              ShiftAは自分のポートフォリオ・ブランドです。様々なコンテンツで、クロスメディアで展開を行い作品公開を行なっています。ネーミングはShift»変わる と、Advance»前進するから来ています。<br>
+              現在は、このホームページShiftA PagesでWorkshift、雑誌の形をとったShiftA Magazineでポートフォリオとして展開しています。それぞれの作品は各項目から閲覧が可能です。
             </div>
           </li>
           <li class="accordion-item shadowin" data-accordion-item>
@@ -125,17 +123,31 @@
             </p>
             <ol class="list">
             Works
-              <li>Icon for Twitter (2015)</li>
-              <li>Photoshop Wallpaper (2013)</li>
+              <li>Icon for Twitter (2014/2015)</li>
+              <li>Wallpaper by Photoshop (2013–2014)</li>
               <li>Christmas Party Poster (2015/2016)</li>
               <li>Calendar (2017)</li>
               <li>Wallpeper for iPhone (2013–2015)</li>
-              <li>Illust of Crow (2015)</li>
+              <li>Illustration of Crow (2015)</li>
               <li>Graffiti (2016)</li>
               <li>Branding (2015–2016)</li>
               <li>Photo Poetry (2016)</li>
               <li>Calligraphy (2016–2017)</li>
             </ol>
+          </div>
+        </div>
+        <div class="shadowin">
+          <div class="shcontents">
+            <h2 class="sub">1. Icon for Twitter</h2>
+            <h4 class="subsub">2014/2015, by Adobe Illustrator</h4>
+            
+          </div>
+        </div>
+        <div class="shadowin">
+          <div class="shcontents">
+            <h2 class="sub">2. Wallpepar by Photoshop</h2>
+            <h4 class="subsub">2013–2014, by Adobe Photoshop</h4>
+            
           </div>
         </div>
       </div>
