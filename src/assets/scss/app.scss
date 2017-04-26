@@ -319,3 +319,13 @@ html,body{
 .list{
   font-family: "DIN Next W01 Bold";
 }
+.orbit-next, .orbit-previous{
+  transition: all 0.5s ease;
+  border-radius: 50%;
+}
+.orbit-container{
+  border-radius: 5px;
+}
+.orbit-bullets button{
+  transition: all 0.5s ease;
+}
