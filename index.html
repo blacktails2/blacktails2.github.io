@@ -37,7 +37,7 @@
               <li>
                 <a href="#" class="topmenu">Workshift</a>
                 <ul class="menu vertical">
-                  <li><a href="#" class="topdrop">Leatest:2017 Spring</a></li>
+                  <li><a href="#work01" class="topdrop">Leatest:2017 Spring</a></li>
                   <li><a href="#" class="topdrop">All Workshifts</a></li>
                 </ul>
               </li>
@@ -113,7 +113,7 @@
     </div>
     <div class="row">
       <div class="large-12 columns">
-        <div class="shadowin">
+        <div class="shadowin" id="work01">
           <div class="shcontents">
             <h2 class="sub">Workshift 01/Spring 2017</h2>
             <h4 class="subsub">Theme: Favorite</h4>
@@ -146,6 +146,24 @@
           <div class="shcontents">
             <h2 class="sub">2. Wallpepar by Photoshop</h2>
             <h4 class="subsub">2013–2014, by Adobe Photoshop</h4>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"> 
+                  <img src="assets/img/orbit2/1.jpg">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/orbit2/2.jpg">
+                </div>
+                <div class="swiper-slide"> 
+                  <img src="assets/img/orbit2/3.jpg">
+                </div>
+              </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+    
+            </div>
             <p>
               高専1,2年次に作っていたMacBook Pro用の壁紙。Photoshop修行の一環として、ネットにある様々なPhotoshopチュートリアルを使い制作しました。レイヤースタイルや様々なPhotoshop操作を覚えるのに役立ちます。
             </p>
@@ -166,5 +184,21 @@
     <div id="footer"><p>Copyright ©︎ 2017 Masaki Ando All Rights Reserved.</p></div>
 
     <script src="assets/js/app.js"></script>
+    <script>
+var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    loop: true,
+    
+    // If we need pagination
+    pagination: '.swiper-pagination',
+    
+    // Navigation arrows
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+    // And if we need scrollbar
+    scrollbar: '.swiper-scrollbar',
+  }) 
+</script>
   </body>
 </html>
