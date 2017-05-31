@@ -139,7 +139,39 @@
           <div class="shcontents">
             <h2 class="sub">1. Icon for Twitter</h2>
             <h4 class="subsub">2014/2015, by Adobe Illustrator</h4>
-            
+            <div class="swiper-container sw1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"> 
+                  <img src="assets/img/orbit1/1.jpg">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/orbit1/2.jpg">
+                </div>
+                <div class="swiper-slide"> 
+                  <img src="assets/img/orbit1/3.jpg">
+                </div>
+                <div class="swiper-slide"> 
+                  <img src="assets/img/orbit1/4.jpg">
+                </div>
+                <div class="swiper-slide"> 
+                  <img src="assets/img/orbit1/5.jpg">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-scrollbar"></div>
+            </div>
+            <p>
+              Twitterアカウント、blacktails2で使っていた自画像アイコン。デフォルメされ、服装の再現などに力を入れました。illustratorでのイラスト制作の経験として大いに役立ちました。
+            </p>
+            <ol class="list">
+              <li>First Icon / Oct, 2014</li>
+              <li>Blue & White</li>
+              <li>Flat Style</li>
+              <li>Second Icon / April, 2015</li>
+              <li>Illust for Mother’s Day / May, 2017</li>
+            </ol>
           </div>
         </div>
         <div class="shadowin">
@@ -216,5 +248,22 @@ var mySwiper = new Swiper ('.swiper-container', {
     effect: "coverflow",
   }) 
 </script>
+<script>
+    var galleryTop = new Swiper('.gallery-top', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 10,
+    });
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+        spaceBetween: 10,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        touchRatio: 0.2,
+        slideToClickedSlide: true
+    });
+    galleryTop.params.control = galleryThumbs;
+    galleryThumbs.params.control = galleryTop;
+    
+    </script>
   </body>
 </html>
