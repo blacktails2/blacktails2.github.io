@@ -1,0 +1,111 @@
+
+<!doctype html>
+<html class="no-js" lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShiftA Pages: Masaki Ando Portfolio Site</title>
+    <link rel="shortcut icon" href="assets/img/favicon2.png"/>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <script type="text/javascript" src="//fast.fonts.net/jsapi/ed874316-ce82-4c2f-aedc-a5c7969ae578.js"></script>
+    <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?ggfsXn9cZZA%3D" charset="utf-8"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53606233-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body>
+
+    <div data-sticky-container>
+      <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+        <div class="top-bar-title">
+          <a href="index.html"><span class="icon-logo" id="toplogo"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span></a>
+        </div>
+        <div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li><a href="index.html" class="topmenu" id="Homemenu">Home</a></li>
+              <li>
+                <a href="#" class="topmenu">Workshift</a>
+                <ul class="menu vertical">
+                  <li><a href="#work01" class="topdrop">Leatest:2017 Spring</a></li>
+                  <li><a href="workshift.html" class="topdrop">All Workshifts</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="topmenu">Portfolio</a>
+                <ul class="menu vertical">
+                  <li><a href="#" class="topdrop">Leatest:Issue 01</a></li>
+                  <li><a href="#" class="topdrop">All Portfolios</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </div>
+    </div>
+    
+    <div class="animated fadeIn">
+      <div class="row">
+        <div id="bgr5">
+          <div class="large-12 columns">
+            <h1 class="title">
+              Workshifts
+            </h1>
+            <p class="detail">
+              Workshiftは、ShiftA独特の作品公開体系。季節ごとにテーマを決め、テーマに沿った作品を10個選び、公開します。その作品は高専に入学したばかりの頃の恥ずかしい作品から、つい最近作った自信ある作品など様々。自分の作品を見るとともに、成長を感じてください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer"><p>Copyright ©︎ 2017 Masaki Ando All Rights Reserved.</p></div>
+
+    <script src="assets/js/app.js"></script>
+    <script>
+var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    loop: true,
+    
+    // If we need pagination
+    pagination: '.swiper-pagination',
+    
+    // Navigation arrows
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+    // And if we need scrollbar
+    scrollbar: '.swiper-scrollbar',
+    autoHeight: true,
+    effect: "coverflow",
+  }) 
+</script>
+<script>
+    var galleryTop = new Swiper('.gallery-top', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 10,
+    });
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+        spaceBetween: 10,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        touchRatio: 0.2,
+        slideToClickedSlide: true
+    });
+    galleryTop.params.control = galleryThumbs;
+    galleryThumbs.params.control = galleryTop;
+    
+    </script>
+  </body>
+</html>
