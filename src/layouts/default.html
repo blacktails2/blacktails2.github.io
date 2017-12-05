@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
     <link rel="stylesheet" href="{{root}}assets/css/swiper.css">
     <link rel="stylesheet" href="{{root}}assets/css/animate.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/layzr.js/2.2.2/layzr.min.js"></script>
     <script type="text/javascript" src="//fast.fonts.net/jsapi/ed874316-ce82-4c2f-aedc-a5c7969ae578.js"></script>
     <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?ggfsXn9cZZA%3D" charset="utf-8"></script>
     <script>
@@ -32,6 +33,16 @@
     {{> footer}}
 
     <script src="{{root}}assets/js/app.js"></script>
+    <script>const instance = Layzr()
+
+// start it up, when the DOM is ready
+
+document.addEventListener('DOMContentLoaded', event => {
+  instance
+    .update()           // track initial elements
+    .check()            // check initial elements
+    .handlers(true)     // bind scroll and resize handlers
+})</script>
     <script>
 var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
