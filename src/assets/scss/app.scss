@@ -167,7 +167,7 @@ html,body{
   border-radius: 5px;
 	&:hover{
 		color: $shcolor2;
-    background-color: rgba(22,147,165,0.1);
+    background-color: rgba(255,195,0,0.1);
 	}
 }
 .top-bar-right{
@@ -228,7 +228,7 @@ html,body{
   font-family: "Bodoni W01 Book Italic", Bodoni, Palatino, garamond, georgia, serif;
   font-style: italic;
   transform: skew(0deg,-5deg);
-  background: linear-gradient(transparent 50%, rgba(108,223,234,0.5) 20%);
+  background: linear-gradient(transparent 50%, rgba(255,195,0,0.5) 20%);
   width: 300px;
   margin: 0 auto;
   color: $dgray;
@@ -268,7 +268,7 @@ html,body{
   100% { background-color: #1C8B9C; }
 }
 #bgr1{
-  background: linear-gradient(30deg, rgba(255,195,0,0.6), rgba(255,60,0,0.6)), url(../img/bgr2.jpg);
+  background: linear-gradient(30deg, rgba(255,195,0,0.6), rgba(255,60,0,0.6)), url(../img/bgr2.svg);
   background-size: cover;
   background-position: center;
   width: 100%;
