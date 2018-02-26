@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="../assets/css/swiper.css">
     <link rel="stylesheet" href="../assets/css/animate.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/layzr.js/2.2.2/layzr.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="//fast.fonts.net/jsapi/ed874316-ce82-4c2f-aedc-a5c7969ae578.js"></script>
-    <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?ggfsXn9cZZA%3D" charset="utf-8"></script>
+    <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?ggfsXn9cZZA%3D&fadein=0" charset="utf-8"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,36 +27,8 @@
   </head>
   <body>
 
-    <div data-sticky-container>
-      <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
-        <div class="top-bar-title">
-          <a href="/index.html"><span class="icon-logo" id="toplogo"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></span></a>
-        </div>
-        <div>
-          <div class="top-bar-right">
-            <ul class="dropdown menu" data-dropdown-menu>
-              <li><a href="/index.html" class="topmenu" id="Homemenu">Home</a></li>
-              <li>
-                <a href="#" class="topmenu">Workshift</a>
-                <ul class="menu vertical">
-                  <li><a href="/#work01" class="topdrop">Leatest:2017 Autumn</a></li>
-                  <li><a href="/workshift.html" class="topdrop">All Workshifts</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="topmenu">Portfolio</a>
-                <ul class="menu vertical">
-                  <li><a href="/portfolio/portfolio4.html" class="topdrop">Leatest:for University</a></li>
-                  <li><a href="/portfolio.html" class="topdrop">All Portfolios</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          </div>
-      </div>
-    </div>
     <iframe style="border: 1px solid #777;" src="https://indd.adobe.com/embed/13951426-120c-47b5-a5c6-b8e06e605324?startpage=1&allowFullscreen=true" width="650px" height="460px" frameborder="0" allowfullscreen=""></iframe>
-    <div id="footer"><p>Copyright ©︎ 2017 Masaki Ando All Rights Reserved.</p></div>
+    <div id="footer"><p>Copyright 2017 <span>Masaki Ando</span> All Rights Reserved.</p></div>
 
     <script src="../assets/js/app.js"></script>
     <script>const instance = Layzr()
@@ -102,6 +75,31 @@ var mySwiper = new Swiper ('.swiper-container', {
     galleryTop.params.control = galleryThumbs;
     galleryThumbs.params.control = galleryTop;
     
+    </script>
+    <script>
+        var $grid = new Isotope('#grid', {
+        itemSelector: '.grid-item',
+        getSortData: {
+          name: '.wname parseInt',
+          category: '.wcate',
+          laboratory: '.wlabo',
+        }
+      });
+
+      // bind sort button click
+      $('.sort-by-button-group').on('click', 'button', function() {
+        var sortValue = $(this).attr('data-sort-value');
+        $grid.arrange({ sortBy: sortValue });
+      });
+
+      // change is-checked class on buttons
+      $('.button-group').each(function(i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on('click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $(this).addClass('is-checked');
+        });
+      });
     </script>
   </body>
 </html>
