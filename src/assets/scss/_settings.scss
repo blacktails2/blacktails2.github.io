@@ -62,10 +62,10 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $shcolor: #FBB829;
-$dgray: #333333; 
+$dgray: #333333;
 $body-background: $white;
 $body-font-color: #333333;
-$body-font-family: "DIN Next W01 Light", '新ゴ L', 'Shin Go Light', 'Helvetica Neue', Helvetica, sans-serif;
+$body-font-family: "DINNextW1G-Light", "DIN Next W01 Light", UDShinGoNTPr6N-Light, '新ゴ L', 'Shin Go Light', 'Helvetica Neue', Helvetica, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -106,7 +106,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'DIN Next W01 Bold';
+$header-font-family: "DINNextW1G-Bold", 'DIN Next W01 Bold';
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;

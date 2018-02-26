@@ -13,6 +13,20 @@ $shcolor: #FBB829;
  * 
  * Released on: March 10, 2017
  */
+ ul.orbit-container,
+.swiper-wrapper {
+  height: auto !important;
+}
+
+li.orbit-slide,
+.swiper-slide {
+  max-height: none !important;
+}
+.swiper-slide{
+  img{
+  border-radius: 5px;
+  }
+}
 .swiper-container {
   margin-left: auto;
   margin-right: auto;
@@ -131,6 +145,7 @@ $shcolor: #FBB829;
   background-color: rgba(255,255,255,0.3);
   color: white;
   transition: ease 0.3s all;
+  border-radius: 5px;
   &:hover{
     background-color: rgba(255,195,0,0.3);
   }
